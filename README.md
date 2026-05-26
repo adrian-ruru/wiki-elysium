@@ -1,6 +1,8 @@
-# D&D Epic
+# Wiki Elysium
 
-Bienvenido al repositorio oficial de **D&D Epic**, una página web dedicada a las reglas caseras y recursos personalizados para nuestro servidor de rol basado en *Dungeons & Dragons 5ª Edición*.
+Bienvenido al repositorio oficial del servidor de Discord **Gremio de Elysium**, una página web dedicada a todos los recursos que debe de saber cualquier jugador que quiera participar en este *West Marches*.
+
+El sistema de rol que usamos es *Dungeons & Dragons Edición 5.5ª*, así que aunque venga de quinta edición, tu adaptación será veloz.
 
 ## Descripción
 
