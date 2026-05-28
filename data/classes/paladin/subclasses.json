@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "paladin",
+  "subclasses": [
+    {
+      "id": "devotion",
+      "name": "Juramento de Devoción",
+      "features": [
+        {
+          "id": "devotion-template",
+          "name": "Rasgo del Juramento de Devoción",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos de proteccion y poder sagrado.",
+          "mechanics": [{ "label": "Recurso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "glory", "name": "Juramento de Gloria", "features": [] },
+    { "id": "ancients", "name": "Juramento de los Ancestros", "features": [] },
+    { "id": "vengeance", "name": "Juramento de Venganza", "features": [] }
+  ]
+}

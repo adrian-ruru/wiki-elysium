@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "monk",
+  "subclasses": [
+    {
+      "id": "mercy",
+      "name": "Guerrero de la Misericordia",
+      "features": [
+        {
+          "id": "mercy-template",
+          "name": "Rasgo de Misericordia",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos de curacion, dano y control.",
+          "mechanics": [{ "label": "Recurso", "value": "Foco" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "shadow", "name": "Guerrero de la Sombra", "features": [] },
+    { "id": "elements", "name": "Guerrero de los Elementos", "features": [] },
+    { "id": "open-hand", "name": "Guerrero de la Mano Abierta", "features": [] }
+  ]
+}

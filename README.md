@@ -1,49 +1,60 @@
 # Wiki Elysium
 
-Bienvenido al repositorio oficial del servidor de Discord **Gremio de Elysium**, una página web dedicada a todos los recursos que debe de saber cualquier jugador que quiera participar en este *West Marches*.
+Wiki estatica para organizar las reglas del servidor de rol Elysium usando D&D 5e 2024 como base.
 
-El sistema de rol que usamos es *Dungeons & Dragons Edición 5.5ª*, así que aunque venga de quinta edición, tu adaptación será veloz.
+El proyecto esta preparado para GitHub Pages: `index.html` vive en la raiz y todas las rutas internas son relativas.
 
-## Descripción
+## Estructura
 
-Este proyecto tiene como objetivo proporcionar una plataforma centralizada donde los jugadores puedan consultar las reglas caseras, tablas personalizadas, y otros recursos necesarios para nuestras sesiones de rol. La página está diseñada para ser intuitiva, accesible y visualmente atractiva.
+```text
+.
+├── index.html
+├── pages/
+│   ├── classes.html
+│   ├── species.html
+│   ├── spells.html
+│   ├── feats.html
+│   ├── items.html
+│   ├── backgrounds.html
+│   └── rules.html
+├── assets/
+│   ├── css/
+│   ├── img/
+│   └── js/
+├── data/
+│   ├── classes/
+│   ├── species/
+│   ├── spells/
+│   ├── feats/
+│   ├── items/
+│   ├── backgrounds/
+│   └── rules/
+└── docs/
+```
 
-## Características
+## Contenido
 
-- **Reglas Caseras**: Una sección dedicada a las modificaciones y ajustes de las reglas oficiales de D&D 5e.
-- **Tablas Personalizadas**: Herramientas y tablas para facilitar la creación de personajes, encuentros y más.
-- **Recursos del Servidor**: Información sobre el servidor, eventos y cómo unirse.
-- **Diseño Responsivo**: Compatible con dispositivos móviles y de escritorio.
+- `data/classes/<clase>/class.json`: datos principales, rasgos, progresion e IDs de subclases.
+- `data/classes/<clase>/subclasses.json`: subclases asociadas y sus rasgos activables.
+- `data/species/species.json`: especies, rasgos base y variantes o subespecies.
+- `data/spells`, `data/feats`, `data/items`, `data/backgrounds` y `data/rules`: catalogos preparados para crecer.
 
-## Instalación
+Consulta [docs/content-model.md](docs/content-model.md) para ver el contrato de datos.
 
-1. Clona este repositorio:
-    ```bash
-    git clone https://github.com/tu-usuario/dnd-epic.github.io.git
-    ```
-2. Abre el archivo `index.html` en tu navegador para ver la página localmente.
+## Desarrollo local
 
-## Contribuciones
+Como las paginas cargan JSON con `fetch`, usa un servidor local en vez de abrir los HTML directamente:
 
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la página o agregar contenido, sigue estos pasos:
+```bash
+python -m http.server 8000
+```
 
-1. Haz un fork del repositorio.
-2. Crea una rama para tu funcionalidad o corrección:
-    ```bash
-    git checkout -b nueva-funcionalidad
-    ```
-3. Realiza tus cambios y haz un commit:
-    ```bash
-    git commit -m "Descripción de los cambios"
-    ```
-4. Envía un pull request.
+Luego abre `http://localhost:8000`.
 
-## Licencia
+## Despliegue en GitHub Pages
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+1. Sube el repositorio a GitHub.
+2. En `Settings > Pages`, elige la rama y la carpeta raiz.
+3. GitHub Pages servira `index.html` como entrada principal.
 
-## Contacto
-
-Si tienes preguntas o sugerencias, no dudes en contactarnos a través del servidor de Discord o abre un issue en este repositorio.
-
-¡Gracias por ser parte de **D&D Epic** y que los dados siempre estén a tu favor!
+El archivo `.nojekyll` evita que GitHub Pages ignore carpetas o archivos que empiecen por guion bajo si se agregan en el futuro.

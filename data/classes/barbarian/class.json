@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "barbarian",
+  "name": "Bárbaro",
+  "slug": "barbaro",
+  "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+  "description": "Plantilla de clase para volcar los rasgos del Bárbaro segun la adaptacion aprobada en Elysium.",
+  "hitDie": "d12",
+  "primaryAbilities": ["Fuerza"],
+  "savingThrows": ["Fuerza", "Constitución"],
+  "proficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": [],
+    "skills": { "choose": 0, "from": [] }
+  },
+  "subclassSelectionLevel": 3,
+  "subclassIds": ["berserker", "wild-heart", "world-tree", "zealot"],
+  "progression": [
+    { "level": 1, "proficiencyBonus": 2, "features": ["Rasgos base pendientes"] },
+    { "level": 2, "proficiencyBonus": 2, "features": ["Rasgos base pendientes"] },
+    { "level": 3, "proficiencyBonus": 2, "features": ["Eleccion de subclase"] }
+  ],
+  "features": [
+    {
+      "id": "barbarian-feature-template",
+      "name": "Rasgo base de Bárbaro",
+      "level": 1,
+      "category": "classFeature",
+      "summary": "Espacio reservado para el texto aprobado del rasgo.",
+      "mechanics": [
+        { "label": "Accion", "value": "Por definir" },
+        { "label": "Recurso", "value": "Por definir" },
+        { "label": "Escalado", "value": "Por nivel" }
+      ],
+      "entries": [
+        { "type": "paragraph", "text": "Sustituye este bloque por el rasgo oficial o casero que se vaya a usar en Elysium." }
+      ]
+    }
+  ]
+}

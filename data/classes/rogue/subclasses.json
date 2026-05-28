@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "rogue",
+  "subclasses": [
+    {
+      "id": "arcane-trickster",
+      "name": "Tramposo Arcano",
+      "features": [
+        {
+          "id": "arcane-trickster-template",
+          "name": "Rasgo de Tramposo Arcano",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para conjuros, sigilo y engano arcano.",
+          "mechanics": [{ "label": "Atributo", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "assassin", "name": "Asesino", "features": [] },
+    { "id": "soulknife", "name": "Hoja del Alma", "features": [] },
+    { "id": "thief", "name": "Ladrón", "features": [] }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "system": "Elysium",
+  "title": "Reglas del servidor",
+  "category": "Reglas caseras",
+  "status": "Plantilla inicial",
+  "sources": ["Elysium"],
+  "description": "Espacio para reglas de mesa, procedimientos del servidor, economia, descansos, muerte, crafting y criterios de rol.",
+  "entries": [
+    {
+      "id": "rule-template",
+      "name": "Plantilla de regla",
+      "type": "Regla",
+      "summary": "Ejemplo de estructura para una regla casera o procedimiento.",
+      "mechanics": [
+        { "label": "Ambito", "value": "Por definir" },
+        { "label": "Aplica a", "value": "Por definir" },
+        { "label": "Estado", "value": "Borrador" }
+      ],
+      "entries": [
+        { "type": "paragraph", "text": "Completar con la regla, excepciones, ejemplos y referencias internas." }
+      ]
+    }
+  ]
+}

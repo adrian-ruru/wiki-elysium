@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "rogue",
+  "name": "Pícaro",
+  "slug": "picaro",
+  "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+  "description": "Plantilla de clase para ataque furtivo, pericia, movilidad, reaccion y herramientas.",
+  "hitDie": "d8",
+  "primaryAbilities": ["Destreza"],
+  "savingThrows": ["Destreza", "Inteligencia"],
+  "proficiencies": { "armor": [], "weapons": [], "tools": [], "skills": { "choose": 0, "from": [] } },
+  "subclassSelectionLevel": 3,
+  "subclassIds": ["arcane-trickster", "assassin", "soulknife", "thief"],
+  "progression": [
+    { "level": 1, "proficiencyBonus": 2, "features": ["Rasgos base pendientes"] },
+    { "level": 2, "proficiencyBonus": 2, "features": ["Rasgos base pendientes"] },
+    { "level": 3, "proficiencyBonus": 2, "features": ["Eleccion de subclase"] }
+  ],
+  "features": [
+    {
+      "id": "rogue-feature-template",
+      "name": "Rasgo base de Pícaro",
+      "level": 1,
+      "category": "classFeature",
+      "summary": "Espacio reservado para el texto aprobado del rasgo.",
+      "mechanics": [
+        { "label": "Accion", "value": "Por definir" },
+        { "label": "Recurso", "value": "Por definir" },
+        { "label": "Escalado", "value": "Por nivel" }
+      ],
+      "entries": [{ "type": "paragraph", "text": "Completar con pericia, furtivo y reglas de utilidad de Elysium." }]
+    }
+  ]
+}

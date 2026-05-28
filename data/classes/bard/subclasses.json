@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "bard",
+  "subclasses": [
+    {
+      "id": "dance",
+      "name": "Colegio de Danza",
+      "features": [
+        {
+          "id": "dance-template",
+          "name": "Rasgo del Colegio de Danza",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos de movimiento, apoyo y presencia escenica.",
+          "mechanics": [{ "label": "Recurso", "value": "Inspiracion bardica" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "glamour", "name": "Colegio de Glamour", "features": [] },
+    { "id": "lore", "name": "Colegio del Saber", "features": [] },
+    { "id": "valor", "name": "Colegio del Valor", "features": [] }
+  ]
+}

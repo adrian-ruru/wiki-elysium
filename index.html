@@ -1,62 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5etools Clone</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><span class="highlight">5e</span>tools.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Rules</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Player</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Dungeon Master</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">References</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Utilities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
-                </ul>
-            </div>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wiki de reglas del servidor de rol Elysium para D&D 5e 2024.">
+    <title>Wiki Elysium</title>
+    <link rel="icon" href="assets/img/elysium-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Inicio de Wiki Elysium">
+        <img src="assets/img/elysium-mark.svg" alt="" width="36" height="36">
+        <span>Wiki Elysium</span>
+      </a>
+      <button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" data-site-nav>
+        <a href="pages/classes.html" data-nav-link="classes">Clases</a>
+        <a href="pages/species.html" data-nav-link="species">Especies</a>
+        <a href="pages/spells.html" data-nav-link="spells">Hechizos</a>
+        <a href="pages/feats.html" data-nav-link="feats">Dotes</a>
+        <a href="pages/items.html" data-nav-link="items">Objetos</a>
+        <a href="pages/backgrounds.html" data-nav-link="backgrounds">Trasfondos</a>
+        <a href="pages/rules.html" data-nav-link="rules">Reglas</a>
+      </nav>
+    </header>
+
+    <main class="home-layout">
+      <section class="intro-panel">
+        <p class="eyebrow">D&D 5e 2024 / Elysium</p>
+        <h1>Compendio de reglas para jugadores y narradores.</h1>
+        <p>
+          Una wiki estatica preparada para organizar clases, especies, hechizos,
+          dotes, objetos y trasfondos mediante archivos JSON mantenibles.
+        </p>
+      </section>
+
+      <section class="content-section" aria-labelledby="players-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Personajes</p>
+          <h2 id="players-heading">Opciones de creacion y progreso</h2>
         </div>
-    </nav>
-    <div class="container mt-4">
-        <h2>Players</h2>
-        <div class="row grid-container">
-            <div class="col-md-3 mb-3"><button class="btn">Species</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Classes</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Feats</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Options & Features</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Backgrounds</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Items</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Spells</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Stat Generator</button></div>
+        <div class="link-grid">
+          <a class="feature-link" href="pages/classes.html">
+            <span>Clases</span>
+            <small>Rasgos, progresion y subclases activables.</small>
+          </a>
+          <a class="feature-link" href="pages/species.html">
+            <span>Especies</span>
+            <small>Rasgos base y subespecies o linajes.</small>
+          </a>
+          <a class="feature-link" href="pages/feats.html">
+            <span>Dotes</span>
+            <small>Origen, generales, epicas y de especie.</small>
+          </a>
+          <a class="feature-link" href="pages/backgrounds.html">
+            <span>Trasfondos</span>
+            <small>Competencias, dote de origen y equipo.</small>
+          </a>
         </div>
-        <h2>Rules</h2>
-        <div class="row grid-container">
-            <div class="col-md-3 mb-3"><button class="btn">Adventures</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Books</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Rules Glossary</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Conditions</button></div>
+      </section>
+
+      <section class="content-section" aria-labelledby="rules-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Referencia</p>
+          <h2 id="rules-heading">Material de consulta</h2>
         </div>
-        <h2>Dungeon Masters</h2>
-        <div class="row grid-container dm">
-            <div class="col-md-3 mb-3"><button class="btn">Bestiary</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">DM Screen</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">Loot Generator</button></div>
-            <div class="col-md-3 mb-3"><button class="btn">CR Calculator</button></div>
+        <div class="link-grid">
+          <a class="feature-link" href="pages/spells.html">
+            <span>Hechizos</span>
+            <small>Nivel, escuela, componentes, escalado y listas.</small>
+          </a>
+          <a class="feature-link" href="pages/items.html">
+            <span>Objetos</span>
+            <small>Rareza, sintonia, propiedades y reglas de uso.</small>
+          </a>
+          <a class="feature-link" href="pages/rules.html">
+            <span>Reglas del servidor</span>
+            <small>Reglas caseras, procedimientos y criterios de mesa.</small>
+          </a>
         </div>
-    </div>
-    <footer class="text-center mt-4">
-        <button class="btn patreon">Become a Patron</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Wiki Elysium</span>
+      <span>Contenido modular preparado para GitHub Pages.</span>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+    <script type="module" src="assets/js/core/navigation.js"></script>
+  </body>
 </html>

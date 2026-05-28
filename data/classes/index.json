@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "contentNotice": "Estructura preparada para contenido aprobado por Elysium. No incluye textos oficiales completos.",
+  "classes": [
+    {
+      "id": "barbarian",
+      "name": "Bárbaro",
+      "folder": "barbarian",
+      "role": "Combatiente resistente",
+      "summary": "Especialista marcial de primera linea con recursos de furia y resistencia."
+    },
+    {
+      "id": "bard",
+      "name": "Bardo",
+      "folder": "bard",
+      "role": "Apoyo y magia versatil",
+      "summary": "Lanzador carismatico con inspiracion, habilidades sociales y control."
+    },
+    {
+      "id": "cleric",
+      "name": "Clérigo",
+      "folder": "cleric",
+      "role": "Magia divina y apoyo",
+      "summary": "Lanzador preparado con dominios, curacion y herramientas contra no muertos."
+    },
+    {
+      "id": "druid",
+      "name": "Druida",
+      "folder": "druid",
+      "role": "Naturaleza y transformacion",
+      "summary": "Lanzador preparado con magia natural, formas salvajes y control del terreno."
+    },
+    {
+      "id": "fighter",
+      "name": "Guerrero",
+      "folder": "fighter",
+      "role": "Maestria marcial",
+      "summary": "Combatiente flexible con muchas dotes, estilos de combate y accion adicional."
+    },
+    {
+      "id": "monk",
+      "name": "Monje",
+      "folder": "monk",
+      "role": "Movilidad y disciplina",
+      "summary": "Combatiente agil centrado en artes marciales, foco y control tactico."
+    },
+    {
+      "id": "paladin",
+      "name": "Paladín",
+      "folder": "paladin",
+      "role": "Juramento y proteccion",
+      "summary": "Combatiente divino con auras, imposicion, conjuros y juramentos sagrados."
+    },
+    {
+      "id": "ranger",
+      "name": "Explorador",
+      "folder": "ranger",
+      "role": "Exploracion y caza",
+      "summary": "Combatiente magico orientado a rastreo, movilidad y enemigos prioritarios."
+    },
+    {
+      "id": "rogue",
+      "name": "Pícaro",
+      "folder": "rogue",
+      "role": "Pericia y precision",
+      "summary": "Especialista en habilidades, sigilo, movilidad y dano preciso."
+    },
+    {
+      "id": "sorcerer",
+      "name": "Hechicero",
+      "folder": "sorcerer",
+      "role": "Magia innata",
+      "summary": "Lanzador carismatico que modifica conjuros con metamagia y origenes arcanos."
+    },
+    {
+      "id": "warlock",
+      "name": "Brujo",
+      "folder": "warlock",
+      "role": "Pacto y secretos",
+      "summary": "Lanzador con patron, invocaciones, pactos y recuperacion corta."
+    },
+    {
+      "id": "wizard",
+      "name": "Mago",
+      "folder": "wizard",
+      "role": "Estudio arcano",
+      "summary": "Lanzador preparado con libro de conjuros y especializacion academica."
+    }
+  ]
+}

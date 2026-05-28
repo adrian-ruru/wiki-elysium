@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "sorcerer",
+  "subclasses": [
+    {
+      "id": "aberrant",
+      "name": "Hechicería Aberrante",
+      "features": [
+        {
+          "id": "aberrant-template",
+          "name": "Rasgo de Hechicería Aberrante",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos psionicos y magia anomala.",
+          "mechanics": [{ "label": "Recurso", "value": "Puntos de hechiceria" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "clockwork", "name": "Hechicería del Reloj", "features": [] },
+    { "id": "draconic", "name": "Hechicería Dracónica", "features": [] },
+    { "id": "wild-magic", "name": "Magia Salvaje", "features": [] }
+  ]
+}

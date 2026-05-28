@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "title": "Hechizos",
+  "category": "Magia",
+  "status": "Plantilla inicial",
+  "sources": ["Elysium"],
+  "description": "Catalogo preparado para cantrips y hechizos con nivel, escuela, componentes, duracion, listas y escalado.",
+  "fields": {
+    "level": "0-9",
+    "school": "Escuela de magia",
+    "castingTime": "Accion, accion adicional, reaccion, minuto u otro",
+    "range": "Distancia o alcance",
+    "components": { "verbal": true, "somatic": true, "material": "" },
+    "duration": "Instantanea, concentracion o duracion concreta",
+    "classes": [],
+    "scaling": []
+  },
+  "entries": [
+    {
+      "id": "spell-template",
+      "name": "Plantilla de hechizo",
+      "type": "Hechizo",
+      "level": 1,
+      "school": "Por definir",
+      "summary": "Ejemplo de estructura para introducir hechizos.",
+      "mechanics": [
+        { "label": "Tiempo", "value": "Por definir" },
+        { "label": "Alcance", "value": "Por definir" },
+        { "label": "Duracion", "value": "Por definir" }
+      ],
+      "entries": [
+        { "type": "paragraph", "text": "Sustituye esta entrada por el texto aprobado, componentes, tiradas, CD, dano y escalado." }
+      ]
+    }
+  ]
+}

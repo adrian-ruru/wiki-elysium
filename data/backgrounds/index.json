@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "title": "Trasfondos",
+  "category": "Creacion de personaje",
+  "status": "Plantilla inicial",
+  "sources": ["Elysium"],
+  "description": "Catalogo preparado para trasfondos con atributos, competencias, dote de origen, equipo y narrativa.",
+  "fields": {
+    "abilityScores": [],
+    "originFeat": "",
+    "skillProficiencies": [],
+    "toolProficiencies": [],
+    "equipment": []
+  },
+  "entries": [
+    {
+      "id": "background-template",
+      "name": "Plantilla de trasfondo",
+      "type": "Trasfondo",
+      "summary": "Ejemplo de estructura para trasfondos.",
+      "mechanics": [
+        { "label": "Atributos", "value": "Por definir" },
+        { "label": "Competencias", "value": "Por definir" },
+        { "label": "Dote", "value": "Por definir" }
+      ],
+      "entries": [
+        { "type": "paragraph", "text": "Completar con descripcion, competencias, equipo, dote de origen y notas de Elysium." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bard",
+  "name": "Bardo",
+  "slug": "bardo",
+  "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+  "description": "Plantilla de clase para organizar inspiracion, conjuros, pericias y rasgos de Bardo.",
+  "hitDie": "d8",
+  "primaryAbilities": ["Carisma"],
+  "savingThrows": ["Destreza", "Carisma"],
+  "proficiencies": { "armor": [], "weapons": [], "tools": [], "skills": { "choose": 0, "from": [] } },
+  "spellcasting": { "ability": "Carisma", "preparation": "known", "ritualCasting": true },
+  "subclassSelectionLevel": 3,
+  "subclassIds": ["dance", "glamour", "lore", "valor"],
+  "progression": [
+    { "level": 1, "proficiencyBonus": 2, "features": ["Conjuros y rasgos base pendientes"] },
+    { "level": 2, "proficiencyBonus": 2, "features": ["Rasgos base pendientes"] },
+    { "level": 3, "proficiencyBonus": 2, "features": ["Eleccion de subclase"] }
+  ],
+  "features": [
+    {
+      "id": "bard-feature-template",
+      "name": "Rasgo base de Bardo",
+      "level": 1,
+      "category": "classFeature",
+      "summary": "Espacio reservado para el texto aprobado del rasgo.",
+      "mechanics": [
+        { "label": "Atributo", "value": "Carisma" },
+        { "label": "Recurso", "value": "Por definir" },
+        { "label": "Escalado", "value": "Por nivel" }
+      ],
+      "entries": [{ "type": "paragraph", "text": "Completar con inspiracion, conjuros y reglas especificas que use Elysium." }]
+    }
+  ]
+}

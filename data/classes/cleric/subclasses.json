@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "cleric",
+  "subclasses": [
+    {
+      "id": "life",
+      "name": "Dominio de Vida",
+      "features": [
+        {
+          "id": "life-template",
+          "name": "Rasgo del Dominio de Vida",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos de curacion y proteccion.",
+          "mechanics": [{ "label": "Recurso", "value": "Canalizar divinidad" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "light", "name": "Dominio de Luz", "features": [] },
+    { "id": "trickery", "name": "Dominio de Engaño", "features": [] },
+    { "id": "war", "name": "Dominio de Guerra", "features": [] }
+  ]
+}

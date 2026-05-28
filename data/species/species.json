@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "contentNotice": "Plantillas para contenido de especie de Elysium. Completar con textos aprobados por el servidor.",
+  "species": [
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para rasgos de Aasimar y manifestaciones celestiales.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano", "Pequeno"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "aasimar-trait-template",
+          "name": "Rasgo de Aasimar",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Uso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con el texto aprobado para Elysium." }]
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dracónido",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para ascendencia draconica, aliento y resistencia elemental.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "dragonborn-trait-template",
+          "name": "Rasgo de Dracónido",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Elemento", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con aliento, resistencia y escalado usados en Elysium." }]
+        }
+      ],
+      "variants": [
+        {
+          "id": "draconic-ancestry",
+          "name": "Ascendencia dracónica",
+          "traits": [
+            {
+              "id": "draconic-ancestry-template",
+              "name": "Opcion de ascendencia",
+              "category": "speciesVariant",
+              "summary": "Plantilla para elegir tipo de dano, forma del aliento y resistencia.",
+              "mechanics": [{ "label": "Eleccion", "value": "Acido, frio, fuego, relampago, veneno u otro" }],
+              "entries": [{ "type": "paragraph", "text": "Completar con la lista cerrada y efectos aprobados por Elysium." }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "Enano",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para rasgos de resistencia, vision y tradicion enana.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "dwarf-trait-template",
+          "name": "Rasgo de Enano",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Uso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos aprobados para Elysium." }]
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "elf",
+      "name": "Elfo",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para rasgos feericos, sentidos y linajes elficos.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "elf-trait-template",
+          "name": "Rasgo de Elfo",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Origen", "value": "Feerico" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos base del elfo para Elysium." }]
+        }
+      ],
+      "variants": [
+        { "id": "drow", "name": "Drow", "traits": [] },
+        { "id": "high-elf", "name": "Alto elfo", "traits": [] },
+        { "id": "wood-elf", "name": "Elfo del bosque", "traits": [] }
+      ]
+    },
+    {
+      "id": "gnome",
+      "name": "Gnomo",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para rasgos de astucia, magia y subespecies gnomas.",
+      "creatureType": "Humanoide",
+      "size": ["Pequeno"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "gnome-trait-template",
+          "name": "Rasgo de Gnomo",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Uso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos base del gnomo para Elysium." }]
+        }
+      ],
+      "variants": [
+        { "id": "forest-gnome", "name": "Gnomo del bosque", "traits": [] },
+        { "id": "rock-gnome", "name": "Gnomo de la roca", "traits": [] }
+      ]
+    },
+    {
+      "id": "goliath",
+      "name": "Goliat",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para ascendencia de gigantes, tamano, fuerza y resistencia.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano"],
+      "speed": { "walk": 35 },
+      "traits": [
+        {
+          "id": "goliath-trait-template",
+          "name": "Rasgo de Goliat",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Escalado", "value": "Por nivel o competencia" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos aprobados para Elysium." }]
+        }
+      ],
+      "variants": [
+        { "id": "cloud-giant", "name": "Ascendencia de gigante de las nubes", "traits": [] },
+        { "id": "fire-giant", "name": "Ascendencia de gigante de fuego", "traits": [] },
+        { "id": "frost-giant", "name": "Ascendencia de gigante de escarcha", "traits": [] },
+        { "id": "hill-giant", "name": "Ascendencia de gigante de las colinas", "traits": [] },
+        { "id": "stone-giant", "name": "Ascendencia de gigante de piedra", "traits": [] },
+        { "id": "storm-giant", "name": "Ascendencia de gigante de tormenta", "traits": [] }
+      ]
+    },
+    {
+      "id": "halfling",
+      "name": "Mediano",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para suerte, agilidad y rasgos de mediano.",
+      "creatureType": "Humanoide",
+      "size": ["Pequeno"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "halfling-trait-template",
+          "name": "Rasgo de Mediano",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Uso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos aprobados para Elysium." }]
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "human",
+      "name": "Humano",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para flexibilidad, origen y rasgos humanos.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano", "Pequeno"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "human-trait-template",
+          "name": "Rasgo de Humano",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Eleccion", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos aprobados para Elysium." }]
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "orc",
+      "name": "Orco",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para resistencia, empuje y rasgos orcos.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "orc-trait-template",
+          "name": "Rasgo de Orco",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Uso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos aprobados para Elysium." }]
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "source": { "system": "D&D 5e 2024", "book": "Elysium", "page": null },
+      "description": "Plantilla para linajes planarios y subespecies tiefling.",
+      "creatureType": "Humanoide",
+      "size": ["Mediano", "Pequeno"],
+      "speed": { "walk": 30 },
+      "traits": [
+        {
+          "id": "tiefling-trait-template",
+          "name": "Rasgo de Tiefling",
+          "category": "speciesTrait",
+          "summary": "Espacio reservado para el rasgo base.",
+          "mechanics": [{ "label": "Linaje", "value": "Abisal, ctonico o infernal" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con los rasgos base y las resistencias aprobadas para Elysium." }]
+        }
+      ],
+      "variants": [
+        {
+          "id": "abyssal",
+          "name": "Tiefling abisal",
+          "traits": [
+            {
+              "id": "tiefling-abyssal-template",
+              "name": "Legado abisal",
+              "category": "speciesVariant",
+              "summary": "Plantilla para rasgos y magia del linaje abisal.",
+              "mechanics": [{ "label": "Origen", "value": "Abismo" }],
+              "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+            }
+          ]
+        },
+        {
+          "id": "chthonic",
+          "name": "Tiefling ctónico",
+          "traits": [
+            {
+              "id": "tiefling-chthonic-template",
+              "name": "Legado ctónico",
+              "category": "speciesVariant",
+              "summary": "Plantilla para rasgos y magia del linaje ctonico.",
+              "mechanics": [{ "label": "Origen", "value": "Inframundo" }],
+              "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+            }
+          ]
+        },
+        {
+          "id": "infernal",
+          "name": "Tiefling infernal",
+          "traits": [
+            {
+              "id": "tiefling-infernal-template",
+              "name": "Legado infernal",
+              "category": "speciesVariant",
+              "summary": "Plantilla para rasgos y magia del linaje infernal.",
+              "mechanics": [{ "label": "Origen", "value": "Infierno" }],
+              "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "fighter",
+  "subclasses": [
+    {
+      "id": "battle-master",
+      "name": "Maestro de Batalla",
+      "features": [
+        {
+          "id": "battle-master-template",
+          "name": "Rasgo de Maestro de Batalla",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para maniobras, dados y opciones tacticas.",
+          "mechanics": [{ "label": "Recurso", "value": "Dados de superioridad" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "champion", "name": "Campeón", "features": [] },
+    { "id": "eldritch-knight", "name": "Caballero Místico", "features": [] },
+    { "id": "psi-warrior", "name": "Guerrero Psi", "features": [] }
+  ]
+}

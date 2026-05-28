@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "warlock",
+  "subclasses": [
+    {
+      "id": "archfey",
+      "name": "Patrón Archihada",
+      "features": [
+        {
+          "id": "archfey-template",
+          "name": "Rasgo de Patrón Archihada",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para encanto, movilidad y magia feerica.",
+          "mechanics": [{ "label": "Recurso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "celestial", "name": "Patrón Celestial", "features": [] },
+    { "id": "fiend", "name": "Patrón Infernal", "features": [] },
+    { "id": "great-old-one", "name": "Patrón del Gran Antiguo", "features": [] }
+  ]
+}

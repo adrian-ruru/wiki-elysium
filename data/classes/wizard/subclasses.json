@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "wizard",
+  "subclasses": [
+    {
+      "id": "abjurer",
+      "name": "Abjurador",
+      "features": [
+        {
+          "id": "abjurer-template",
+          "name": "Rasgo de Abjurador",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para defensa arcana, protecciones y disipacion.",
+          "mechanics": [{ "label": "Atributo", "value": "Inteligencia" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "diviner", "name": "Adivino", "features": [] },
+    { "id": "evoker", "name": "Evocador", "features": [] },
+    { "id": "illusionist", "name": "Ilusionista", "features": [] }
+  ]
+}

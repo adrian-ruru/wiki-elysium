@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "barbarian",
+  "subclasses": [
+    {
+      "id": "berserker",
+      "name": "Camino del Berserker",
+      "features": [
+        {
+          "id": "berserker-template",
+          "name": "Rasgo del Berserker",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos de furia ofensiva.",
+          "mechanics": [{ "label": "Recurso", "value": "Furia" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "wild-heart", "name": "Camino del Corazon Salvaje", "features": [] },
+    { "id": "world-tree", "name": "Camino del Arbol del Mundo", "features": [] },
+    { "id": "zealot", "name": "Camino del Zelote", "features": [] }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "speciesFile": "species.json",
+  "species": [
+    { "id": "aasimar", "name": "Aasimar", "summary": "Linaje tocado por energia celestial." },
+    { "id": "dragonborn", "name": "Dracónido", "summary": "Descendencia draconica con aliento y resistencia elemental." },
+    { "id": "dwarf", "name": "Enano", "summary": "Especie resistente asociada a fortaleza y tradicion." },
+    { "id": "elf", "name": "Elfo", "summary": "Pueblo feerico con linajes diferenciados." },
+    { "id": "gnome", "name": "Gnomo", "summary": "Especie pequena con curiosidad, ingenio y magia menor." },
+    { "id": "goliath", "name": "Goliat", "summary": "Linaje de gigantes con ascendencias elementales." },
+    { "id": "halfling", "name": "Mediano", "summary": "Especie pequena, agil y afortunada." },
+    { "id": "human", "name": "Humano", "summary": "Especie flexible y adaptable." },
+    { "id": "orc", "name": "Orco", "summary": "Especie fuerte y resistente con impulso marcial." },
+    { "id": "tiefling", "name": "Tiefling", "summary": "Linaje planario con subespecies abisal, ctonica e infernal." }
+  ]
+}

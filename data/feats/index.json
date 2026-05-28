@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "title": "Dotes",
+  "category": "Opciones de personaje",
+  "status": "Plantilla inicial",
+  "sources": ["Elysium"],
+  "description": "Catalogo preparado para dotes de origen, generales, epicas, de especie y caseras.",
+  "featTypes": ["origin", "general", "epicBoon", "species", "elysium"],
+  "entries": [
+    {
+      "id": "feat-template-origin",
+      "name": "Plantilla de dote",
+      "type": "Dote",
+      "category": "origin",
+      "prerequisite": "Por definir",
+      "summary": "Ejemplo de estructura para una dote.",
+      "mechanics": [
+        { "label": "Tipo", "value": "Origen" },
+        { "label": "Requisito", "value": "Por definir" },
+        { "label": "Mejora", "value": "Por definir" }
+      ],
+      "entries": [
+        { "type": "paragraph", "text": "Completar con beneficios, elecciones, usos y escalado si corresponde." }
+      ]
+    }
+  ]
+}

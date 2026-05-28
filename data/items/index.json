@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "system": "D&D 5e 2024",
+  "title": "Objetos",
+  "category": "Equipo y tesoro",
+  "status": "Plantilla inicial",
+  "sources": ["Elysium"],
+  "description": "Catalogo preparado para objetos mundanos, magicos, consumibles, armas, armaduras y tesoro.",
+  "itemTypes": ["weapon", "armor", "gear", "tool", "consumable", "magicItem", "treasure"],
+  "entries": [
+    {
+      "id": "item-template",
+      "name": "Plantilla de objeto",
+      "type": "Objeto",
+      "rarity": "Por definir",
+      "summary": "Ejemplo de estructura para objetos.",
+      "mechanics": [
+        { "label": "Tipo", "value": "Por definir" },
+        { "label": "Rareza", "value": "Por definir" },
+        { "label": "Sintonia", "value": "No definida" }
+      ],
+      "entries": [
+        { "type": "paragraph", "text": "Completar con coste, peso, propiedades, activacion, cargas y reglas de uso." }
+      ]
+    }
+  ]
+}

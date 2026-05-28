@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "druid",
+  "subclasses": [
+    {
+      "id": "land",
+      "name": "Círculo de la Tierra",
+      "features": [
+        {
+          "id": "land-template",
+          "name": "Rasgo del Círculo de la Tierra",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para rasgos de terreno y conjuros naturales.",
+          "mechanics": [{ "label": "Recurso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "moon", "name": "Círculo de la Luna", "features": [] },
+    { "id": "sea", "name": "Círculo del Mar", "features": [] },
+    { "id": "stars", "name": "Círculo de las Estrellas", "features": [] }
+  ]
+}

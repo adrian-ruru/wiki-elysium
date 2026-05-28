@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "classId": "ranger",
+  "subclasses": [
+    {
+      "id": "beast-master",
+      "name": "Maestro de Bestias",
+      "features": [
+        {
+          "id": "beast-master-template",
+          "name": "Rasgo de Maestro de Bestias",
+          "level": 3,
+          "category": "subclassFeature",
+          "summary": "Plantilla para companero animal, ordenes y escalado.",
+          "mechanics": [{ "label": "Recurso", "value": "Por definir" }],
+          "entries": [{ "type": "paragraph", "text": "Completar con la version aprobada para Elysium." }]
+        }
+      ]
+    },
+    { "id": "fey-wanderer", "name": "Errante Feérico", "features": [] },
+    { "id": "gloom-stalker", "name": "Acechador Sombrío", "features": [] },
+    { "id": "hunter", "name": "Cazador", "features": [] }
+  ]
+}
